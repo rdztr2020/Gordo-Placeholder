@@ -24,11 +24,11 @@ const HeroSection = () => {
       <div className="relative z-20 flex h-screen flex-col justify-end pb-30">
         <motion.img
           initial={{ opacity: 0, y: 0}}
-          animate={{ opacity: 1, y: -300}}
+          animate={{ opacity: 1, y: -150}}
           transition={{ duration: 3 }}
           src={logo}
           alt="Gordo Mikes"
-          className="w-full p-4"
+          className="w-80 p-4"
         />
       </div>
     </section>
