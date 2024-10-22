@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    
-    <section className="relative flex h-screen items-center justify-center" id="top">
+    <section
+      className="relative flex h-screen items-center justify-center"
+      id="top"
+    >
       
       <div className="absolute inset-0 -z-29 h-full w-full overflow-hidden">
-      <p className="pt-2 text-l tracking-tighter text-white font-extrabold">
-          COMING SOON
-        </p>
+        
         <video
           src={video}
           className="h-full w-full object-cover"
@@ -24,14 +24,15 @@ const HeroSection = () => {
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black" />
       <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
+        <p className="text-white text-bold">COMING SOON</p>
         <motion.img
           initial={{ opacity: 0, y: 80 }}
           animate={{ opacity: 1, y: 80 }}
-          transition={{ duration: 2 }}
+          transition={{ duration: 3 }}
           src={logo}
           alt="Gordo Mikes"
           className="w-full p-4"
-        />        
+        />
       </div>
     </section>
   );
