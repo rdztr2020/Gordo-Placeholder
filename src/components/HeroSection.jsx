@@ -24,7 +24,7 @@ const HeroSection = () => {
       <div className="relative z-20 flex h-screen flex-col justify-end pb-30">
         <motion.img
           initial={{ opacity: 0, y: 0}}
-          animate={{ opacity: 1, y: -350}}
+          animate={{ opacity: 1, y: -300}}
           transition={{ duration: 3 }}
           src={logo}
           alt="Gordo Mikes"
