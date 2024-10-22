@@ -9,9 +9,7 @@ const HeroSection = () => {
       className="relative flex h-screen items-center justify-center"
       id="top"
     >
-      
       <div className="absolute inset-0 -z-29 h-full w-full overflow-hidden">
-        
         <video
           src={video}
           className="h-full w-full object-cover"
@@ -23,8 +21,7 @@ const HeroSection = () => {
         ></video>
       </div>
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black" />
-      <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
-        
+      <div className="relative z-20 flex h-screen flex-col justify-end pb-30">
         <motion.img
           initial={{ opacity: 0, y: 0 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,7 +30,6 @@ const HeroSection = () => {
           alt="Gordo Mikes"
           className="w-full p-4"
         />
-        
       </div>
     </section>
   );
