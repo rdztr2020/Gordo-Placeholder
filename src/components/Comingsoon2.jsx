@@ -1,7 +1,7 @@
 import logo from "../assets/logotransparent.png";
 import DesktopImage from "../assets/flamespost.jpg"
 
-const Comingsoon = () => {
+const Comingsoon2 = () => {
   return (
     <section >
       <div className="bg-cover h-screen mt-2"  style={{backgroundImage:`url(${DesktopImage})`}}>
@@ -13,4 +13,4 @@ const Comingsoon = () => {
   );
 };
 
-export default Comingsoon;
+export default Comingsoon2;
