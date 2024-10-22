@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="relative flex h-screen items-center justify-center" id="top">
       
       <div className="absolute inset-0 -z-29 h-full w-full overflow-hidden">
-      <p className="p-2 text-l tracking-tighter text-white font-extrabold">
+      <p className="pt-2 text-l tracking-tighter text-white font-extrabold">
           COMING SOON
         </p>
         <video
@@ -25,8 +25,8 @@ const HeroSection = () => {
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black" />
       <div className="relative z-20 flex h-screen flex-col justify-end pb-20">
         <motion.img
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 90 }}
+          animate={{ opacity: 1, y: 80 }}
           transition={{ duration: 2 }}
           src={logo}
           alt="Gordo Mikes"
