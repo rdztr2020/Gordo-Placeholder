@@ -4,10 +4,10 @@ import DesktopImage from "../assets/flamespost.jpg"
 const Comingsoon2 = () => {
   return (
     <section >
-      <div className="bg-cover h-screen mt-2"  style={{backgroundImage:`url(${DesktopImage})`}}>
-        <h2>Gordo Mikes BBQ</h2>
-        <h2>Coming Soon</h2>
-        <img src={logo} alt="gordo mike logo" />
+      <div >
+      <p className="p-4 text-xl tracking-tighter text-red-700 font-extrabold">
+          Coming Soon
+        </p>
       </div>
     </section>
   );
