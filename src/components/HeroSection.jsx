@@ -1,7 +1,8 @@
-import video from "../assets/meatsmoke.mp4";
-import logo from "../assets/logotransparent.png";
-import hero from "../assets/meatsmoke.png";
+import video from "../assets/meatsmokeshort.mp4";
+import logo from "../assets/logotransparent.svg";
+import hero from "../assets/meatsmoke.svg";
 import { motion } from "framer-motion";
+
 
 const HeroSection = () => {
   return (
